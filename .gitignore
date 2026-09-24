@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.bag
+*.zip
+Data/
+Dataset/
+outputs/
+*.joblib
+*.pt
+*.npz
