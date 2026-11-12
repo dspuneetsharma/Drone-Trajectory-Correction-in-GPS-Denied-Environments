@@ -2,6 +2,9 @@
 
 ML-corrected VINS trajectory without GPS.
 
+![Path drawn over time](assets/readme/path_progress_mh05.gif)
+*The flight drawn over time: ground truth (black), basic VINS (red), ours (blue).*
+
 **Abbreviations**
 - **VINS**: Visual-Inertial Navigation System (VINS-Fusion)
 - **IMU**: Inertial Measurement Unit (accelerometer + gyroscope)
@@ -36,9 +39,6 @@ On the unseen test flight, the ML-corrected path follows the ground truth much m
 <img src="assets/readme/ate_bar.png" width="480" alt="ATE comparison">
 
 *Average path error (ATE) on the unseen flight. Lower is better.*
-
-![Path drawn over time](assets/readme/path_progress_mh05.gif)
-*The flight drawn over time: ground truth (black), basic VINS (red), ours (blue).*
 
 ## More plots
 
